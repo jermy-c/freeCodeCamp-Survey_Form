@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Survey Form</title>
 </head>
 <body>
@@ -14,15 +15,18 @@
     <main>
         <form action="#" id="survey-form">
             <label for="name" id="name-label">
-                Name <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                Name <br>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
             </label>
             <br>
             <label for="email" id="email-label">
-                Email <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                Email <br>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
             </label>
             <br>
             <label for="number" id="number-label">
-                Age <input type="number" name="age" id="number" placeholder="Age" min="0" max="100">
+                Age <br>
+                <input type="number" name="age" id="number" placeholder="Age" min="0" max="100">
             </label>
             <br>
 
@@ -41,13 +45,13 @@
             <label for="What are the things that make you happy in your life right now?">
                 What are the things that make you happy in your life right now?
                 <br>
-                <textarea name="What are the things that make you happy in your life right now?" id="What are the things that make you happy in your life right now?" cols="30" rows="10"></textarea>
+                <textarea name="What are the things that make you happy in your life right now?" id="What are the things that make you happy in your life right now?" cols="50" rows="5"></textarea>
             </label>
 
             <fieldset>
                 <legend>In what area of your life would you like to increase your feelings of happiness? Select all that apply.</legend>
                 <label for="family">
-                    <input type="checkbox" name="In what area of your life would you like to increase your feelings of happiness?" id="family">Family
+                    <input type="checkbox" value="family" name="In what area of your life would you like to increase your feelings of happiness?" id="family">Family
                 </label>
                 <br>
                 <label for="friends">
@@ -98,89 +102,271 @@
                 <tbody>
                     <tr>
                         <td><label for="">I am pleased with the way I am</label></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
-                        <td><input type="radio" name="" id="disagree"></td>
-                        <td><input type="radio" name="" id="nuetral"></td>
-                        <td><input type="radio" name="" id="agree"></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
                     </tr>
                     <tr>
                         <td><label for="">I am pleased with the way I approach life</label></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
-                        <td><input type="radio" name="" id="disagree"></td>
-                        <td><input type="radio" name="" id="nuetral"></td>
-                        <td><input type="radio" name="" id="agree"></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I approach life" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I approach life" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I approach life" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I approach life" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I approach life" id="strongly-disagree" value="strongly-disagree"></td>
                     </tr>
                     <tr>
                         <td><label for="">I am pleased with the way I approach problems</label></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
-                        <td><input type="radio" name="" id="disagree"></td>
-                        <td><input type="radio" name="" id="nuetral"></td>
-                        <td><input type="radio" name="" id="agree"></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
                     </tr>
                     <tr>
                         <td><label for="">I am rarely interested in other people</label></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
-                        <td><input type="radio" name="" id="disagree"></td>
-                        <td><input type="radio" name="" id="nuetral"></td>
-                        <td><input type="radio" name="" id="agree"></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
                     </tr>
                     <tr>
                         <td><label for="">I feel that life is rewarding</label></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
-                        <td><input type="radio" name="" id="disagree"></td>
-                        <td><input type="radio" name="" id="nuetral"></td>
-                        <td><input type="radio" name="" id="agree"></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
                     </tr>
                     <tr>
                         <td><label for="">I am committed and involved</label></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
-                        <td><input type="radio" name="" id="disagree"></td>
-                        <td><input type="radio" name="" id="nuetral"></td>
-                        <td><input type="radio" name="" id="agree"></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
                     </tr>
                     <tr>
                         <td><label for="">I always see the bad in people</label></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
-                        <td><input type="radio" name="" id="disagree"></td>
-                        <td><input type="radio" name="" id="nuetral"></td>
-                        <td><input type="radio" name="" id="agree"></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
                     </tr>
                     <tr>
                         <td><label for="">My natural instinct is to think the worst</label></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
-                        <td><input type="radio" name="" id="disagree"></td>
-                        <td><input type="radio" name="" id="nuetral"></td>
-                        <td><input type="radio" name="" id="agree"></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
                     </tr>
                     <tr>
                         <td><label for="">I am satisfied with whatever I have</label></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
-                        <td><input type="radio" name="" id="disagree"></td>
-                        <td><input type="radio" name="" id="nuetral"></td>
-                        <td><input type="radio" name="" id="agree"></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
                     </tr>
                     <tr>
                         <td><label for="">I rarely trust people</label></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
-                        <td><input type="radio" name="" id="disagree"></td>
-                        <td><input type="radio" name="" id="nuetral"></td>
-                        <td><input type="radio" name="" id="agree"></td>
-                        <td><input type="radio" name="" id="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
                     </tr>
-                    
+                </tbody>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Strongly disagree</th>
+                        <th>Disagree</th>
+                        <th>Neutral</th>
+                        <th>Agree</th>
+                        <th>Strongly agree</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label for="">I rarely allow people to get close to me</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I find beauty in daily objects</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I like dark rooms</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I have a cheerful effect on people</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">People like to spend time with me</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I have a pet</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I always feel fatigued</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I am generally disinterested</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I have good memories of the past</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I enjoy going out</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Strongly disagree</th>
+                        <th>Disagree</th>
+                        <th>Neutral</th>
+                        <th>Agree</th>
+                        <th>Strongly agree</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label for="">I enjoy visiting family and friends</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I am fit</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I take impulsive decisions</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I rarely smile</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I feel able to take anything on</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I am comfortable with the way I look</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I am happy in the career that I am in</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I am generally disinterested</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I have good memories of the past</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">I enjoy going out</label></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="disagree" value="disagree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="nuetral" value="nuetral"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="agree" value="agree"></td>
+                        <td><input type="radio" name="I am pleased with the way I am" id="strongly-disagree" value="strongly-disagree"></td>
+                    </tr>
                 </tbody>
             </table>
-            <div class="radio-label"></div>
-            <button type="submit">Submit</button>
+            <button type="submit" id="submit">Submit</button>
         </form>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
