@@ -5,32 +5,117 @@
 }
 
 body{
-    background-color: rgba( 0, 0, 255, 0.5);
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp5121853.png&f=1&nofb=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 
 header{
     text-align: center;
 }
 
+#title{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#description{
+    font-size: 20px;
+    font-weight: 400;
+}
+
 form{
-    max-width: 1000px;
+    max-width: 600px;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
     padding: 30px;
     box-shadow: 0 0 10px 10px rgba(0,0,0, 0.1), inset 0 0 10px 10px rgba(255, 255, 255, 0.5);
 }
 
-[type="text"], [type="email"]{
+.basic-info{
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr;
+}
+
+.basic-info input{
+    border: none;
+    border-radius: 30px;
     height: 30px;
+    width: 70%;
+    margin-left: 5px;
+    padding: 5px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.1), inset 0 0 10px 10px rgba(255, 255, 255, 0.5);
+}
+
+.age{
+    width: 45% !important;
+}
+
+#dropdown{
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 65%;
+    padding: 5px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.1), inset 0 0 10px 10px rgba(255, 255, 255, 0.5);
+}
+
+textarea{
+    border: none;
+    border-radius: 30px;
+    height: 100px;
     width: 100%;
-    border:none;
-    border-bottom: 1px solid;
-    background-color: rgba(255, 255, 255, 0);
+    padding: 5px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.1), inset 0 0 10px 10px rgba(255, 255, 255, 0.5);
+}
+
+[type="checkbox"]{
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.1), inset 0 0 10px 10px rgba(255, 255, 255, 0.5);
 }
 
 fieldset{
     border: none;
 }
 
+thead, tbody{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+
+th{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px;
+}
+
+td{
+    padding: 8px;
+}
+
+.radio{
+    text-align: center;
+    width: 10%;
+}
+
+.submit{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+#submit{
+    height: 30px;
+    width: 20%;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(130, 194, 255, 0.884);
+    color: #fff;
+    margin-top: 25px;
+}
