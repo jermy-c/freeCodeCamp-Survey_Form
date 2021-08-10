@@ -15,76 +15,64 @@
     <main>
         <form action="#" id="survey-form">
             <div class="basic-info">
-                <label for="name" id="name-label">
-                    Name 
-                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
-                </label>
-                <label for="email" id="email-label">
-                    Email
-                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
-                </label>
-                <label for="number" id="number-label">
-                    Age
-                    <input type="number" name="age" id="number" placeholder="Age" min="0" max="100" class="age">
-                </label>
+                <label for="name" id="name-label">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <label for="number" id="number-label">Age</label>
+                <input type="number" name="age" id="number" placeholder="Age" min="0" max="100">
             </div>
             
             <br>
 
-            <label for="dropdown">
-                How happy are you at the moment?
-                <br>
-                <select name="How happy are you at the moment?" id="dropdown">
-                    <option value selected disabled>Select an option</option>
-                    <option value="very happy">Very happy</option>
-                    <option value="moderately happy">Moderately happy</option>
-                    <option value="very unhappy">Very unhappy</option>
-                </select>
-            </label>
+            <label for="dropdown" class="dropdown-label">How happy are you at the moment?</label>
+            <select name="How happy are you at the moment?" id="dropdown">
+                <option value selected disabled>Select an option</option>
+                <option value="very happy">Very happy</option>
+                <option value="moderately happy">Moderately happy</option>
+                <option value="very unhappy">Very unhappy</option>
+            </select>
             <br>
 
-            <label for="What are the things that make you happy in your life right now?">
-                What are the things that make you happy in your life right now?
-                <br>
-                <textarea name="What are the things that make you happy in your life right now?" id="What are the things that make you happy in your life right now?" cols="50" rows="5"></textarea>
-            </label>
+            <label for="What are the things that make you happy in your life right now?" class="textarea-label">What are the things that make you happy in your life right now?</label>
+            <textarea name="What are the things that make you happy in your life right now?" id="What are the things that make you happy in your life right now?" cols="50" rows="5"></textarea>
 
             <fieldset>
-                <legend>In what area of your life would you like to increase your feelings of happiness? Select all that apply.</legend>
+                <legend class="checkbox-legend">In what area of your life would you like to increase your feelings of happiness? Select all that apply.</legend>
                 <label for="family">
                     <input type="checkbox" value="family" name="In what area of your life would you like to increase your feelings of happiness?" id="family">Family
                 </label>
                 <br>
                 <label for="friends">
-                    <input type="checkbox" value="friends" name="" id="friends">Friends
+                    <input type="checkbox" value="friends" name="In what area of your life would you like to increase your feelings of happiness?" id="friends">Friends
                 </label>
                 <br>
                 <label for="relationship">
-                    <input type="checkbox" value="realtionship" name="" id="relationship">Relationship
+                    <input type="checkbox" value="realtionship" name="In what area of your life would you like to increase your feelings of happiness?" id="relationship">Relationship
                 </label>
                 <br>
                 <label for="workplace">
-                    <input type="checkbox" value="workplace" name="" id="workplace">Workplace
+                    <input type="checkbox" value="workplace" name="In what area of your life would you like to increase your feelings of happiness?" id="workplace">Workplace
                 </label>
                 <br>
                 <label for="career">
-                    <input type="checkbox" value="career" name="" id="career">Career
+                    <input type="checkbox" value="career" name="In what area of your life would you like to increase your feelings of happiness?" id="career">Career
                 </label>
                 <br>
                 <label for="health">
-                    <input type="checkbox" value="health" name="" id="health">Health
+                    <input type="checkbox" value="health" name="In what area of your life would you like to increase your feelings of happiness?" id="health">Health
                 </label>
                 <br>
                 <label for="wealth">
-                    <input type="checkbox" value="wealth" name="" id="wealth">Wealth
+                    <input type="checkbox" value="wealth" name="In what area of your life would you like to increase your feelings of happiness?" id="wealth">Wealth
                 </label>
                 <br>
                 <label for="surroundings">
-                    <input type="checkbox" value="surroundings" name="" id="surroundings">Surroundings
+                    <input type="checkbox" value="surroundings" name="In what area of your life would you like to increase your feelings of happiness?" id="surroundings">Surroundings
                 </label>
                 <br>
                 <label for="leisure-time">
-                    <input type="checkbox" value="leisure-time" name="" id="leisure-time">Leisure time
+                    <input type="checkbox" value="leisure-time" name="In what area of your life would you like to increase your feelings of happiness?" id="leisure-time">Leisure time
                 </label>
             </fieldset>
         

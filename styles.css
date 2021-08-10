@@ -37,54 +37,99 @@ form{
 
 .basic-info{
     display: grid;
-    grid-template-columns: 3fr 3fr 1fr;
+    grid-template-columns: 1fr 8fr;
+    grid-gap: 20px;
+    align-items: center;
 }
 
 .basic-info input{
     border: none;
     border-radius: 30px;
     height: 30px;
-    width: 70%;
+    width: 80%;
     margin-left: 5px;
     padding: 5px;
     box-shadow: 0 0 10px 1px rgba(0,0,0, 0.1), inset 0 0 10px 10px rgba(255, 255, 255, 0.5);
 }
 
-.age{
-    width: 45% !important;
+.dropdown-label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.textarea-label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 #dropdown{
     border: none;
     border-radius: 30px;
-    height: 30px;
+    height: 40px !important;
     width: 65%;
     padding: 5px;
     box-shadow: 0 0 10px 1px rgba(0,0,0, 0.1), inset 0 0 10px 10px rgba(255, 255, 255, 0.5);
+    margin: 10px 0;
 }
 
 textarea{
     border: none;
     border-radius: 30px;
     height: 100px;
-    width: 100%;
+    width: 98%;
     padding: 5px;
     box-shadow: 0 0 10px 1px rgba(0,0,0, 0.1), inset 0 0 10px 10px rgba(255, 255, 255, 0.5);
+    margin: 10px 0;
 }
 
 [type="checkbox"]{
     border: none;
     border-radius: 50%;
     box-shadow: 0 0 10px 1px rgba(0,0,0, 0.1), inset 0 0 10px 10px rgba(255, 255, 255, 0.5);
+    height: 20px;
+    width: 20px;
 }
 
 fieldset{
     border: none;
+    margin-left: -2%;
 }
 
-thead, tbody{
-    padding-top: 10px;
-    padding-bottom: 10px;
+fieldset legend{
+    display: block;
+    margin-top: 25px !important;
+    margin-bottom: 5px;
+}
+
+fieldset label{
+    display: flex;
+    align-items: center;
+    margin: -5px 0;
+    font-size: 15px;
+}
+
+legend::before{
+    content: "-";
+    display: block;
+    line-height: 20px;
+    color: transparent;
+}
+
+table{
+    margin: 10px 0;
+}
+
+tbody::after {
+    content: "-";
+    display: block;
+    line-height: 10px;
+    color: transparent;
+}
+
+tbody{
+    padding-bottom: 30px !important;
 }
 
 
@@ -111,11 +156,15 @@ td{
 }
 
 #submit{
-    height: 30px;
-    width: 20%;
+    height: 50px;
+    width: 150px;
     border-radius: 30px;
     border: none;
     background-color: rgba(130, 194, 255, 0.884);
     color: #fff;
-    margin-top: 25px;
+    font-size: 20px;
+}
+
+@media screen and max-width(768px) {
+    
 }
