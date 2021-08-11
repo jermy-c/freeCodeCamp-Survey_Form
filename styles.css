@@ -11,7 +11,6 @@ body{
     background-attachment: fixed;
 }
 
-
 header{
     text-align: center;
 }
@@ -85,9 +84,6 @@ textarea{
 }
 
 [type="checkbox"]{
-    border: none;
-    border-radius: 50%;
-    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.1), inset 0 0 10px 10px rgba(255, 255, 255, 0.5);
     height: 20px;
     width: 20px;
 }
@@ -148,6 +144,12 @@ td{
     width: 10%;
 }
 
+[type="radio"]{
+    border: none;
+    height: 20px;
+    width: 20px;
+}
+
 .submit{
     height: 50px;
     width: 100%;
@@ -165,6 +167,29 @@ td{
     font-size: 20px;
 }
 
-@media screen and max-width(768px) {
-    
+.mobile_radio{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        margin: 0;
+    }
+
+    table{
+        display: none;
+    }
+
+    .mobile_radio{
+        display: block;
+    }
+
+    .radios{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .radio{
+        display: flex;
+    }
 }
